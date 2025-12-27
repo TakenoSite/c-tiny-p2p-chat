@@ -3,11 +3,11 @@
 ## 概要
 - 本リポジトリはC言語で実装された、UDPベースのシンプルなP2P NAT traversalサンプルです。Full Cone NATを前提に、サーバがクライアントの外向きIP/PORTを登録し、相手peer情報を通知します。クライアントはhole punch後に直接UDP chatします。
 
-## ビルド
+## ビルド方法
 ```
 make
 ```
-生成物:
+実行ファイル:
 - `tiny_stun_server_run` : STUN風のシンプルなUDPサーバ実行バイナリ
 - `tiny_p2p_chat` : サーバ経由でピア解決しチャットするクライアント
 
