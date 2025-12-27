@@ -14,7 +14,7 @@ make
 ## tiny_stun_server_run.c について
 - UDPで待ち受け、クライアント登録とpeer問い合わせに応答します。
 - 問い合わせを受けると、対象peerへ `PUNCH` 通知を送り、要求元には対象の外向きIP/PORTを `PEER <ip> <port>` で返します。
-- keep-aliveを定期送信し、NAT mapping維持を狙います。
+- keep-aliveを定期送信し、NAT mappingを維持します。
 
 起動例:
 ```
