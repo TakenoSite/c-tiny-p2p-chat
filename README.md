@@ -8,7 +8,7 @@
 make
 ```
 実行ファイル:
-- `tiny_stun_server_run` : STUN風のシンプルなUDPサーバ実行バイナリ
+- `tiny_stun_server_run` : STUN風のシンプルなUDPサーバー
 - `tiny_p2p_chat` : サーバ経由でピア解決しチャットするクライアント
 
 ## tiny_stun_server_run.c について
